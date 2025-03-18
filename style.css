@@ -1,8 +1,28 @@
-body, html {
-    padding: 0;
+body, html{
     margin: 0;
-    background-color:#73c4fa
+    padding: 0;
+    margin-top: -5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+Main {
+    background-color:#4084dc;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100%;
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: small;
+    }
+    }
+    
+
 
 p {
     line-height: 2;
@@ -10,14 +30,10 @@ p {
     margin-left: 1cm;
     font-size: medium;
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-
 }
 
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     
 }
@@ -25,7 +41,6 @@ h1 {
 h2 {
     text-align: center;
     font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
@@ -38,38 +53,51 @@ a {
 }
 
 .Magnavox {
-    background-color: #f0f0f0;
     display: flex;
+    background-color: #ffffff;
     figure{
         margin: 30px;
+    }
+    img{
+        border: 10px solid rgb(1, 81, 193);
     }
 }
 
 .Atari {
-    background-color: #ededed;
     display: flex;
+    background-color: #ffffff;
     figure{
         margin: 30px;
+    }
+    img{
+        border: 10px solid rgb(1, 81, 193);
     }
 }
 
 .Megadrive {
-    background-color: #ffffff;
     display: flex;
+    background-color: #ffffff;
     figure{
         margin: 30px;
+    }
+    img{
+        border: 10px solid rgb(1, 81, 193);
     }
 }
 
 
-
 .video{
-    background-color: #ffffff;
     text-align: center;
+    margin-bottom: -20px;
+}
+
+.catálogo {
+    background-color: #000000;
 }
 
 .jogos{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .jogosps1{
@@ -101,9 +129,9 @@ a {
 }
 
 .textojogos{
-    font-size: medium;
+    font-size: small;
+    text-align: left;
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer{
