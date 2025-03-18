@@ -7,6 +7,7 @@ body, html{
 
 Main {
     background-color:#4084dc;
+    
 }
 
 header{
@@ -21,14 +22,13 @@ header{
         font-size: small;
     }
     }
-    
-
 
 p {
     line-height: 2;
     text-indent: 2%;
     margin-left: 1cm;
-    font-size: medium;
+    margin-right: 1cm;
+    font-size: small;
     color: #ffffff;
 }
 
